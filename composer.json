@@ -1,0 +1,23 @@
+{
+	"name": "darya/smarty",
+	"description": "Smarty templating adapter for the Darya framework",
+	"type": "library",
+	"keywords": ["smarty", "template", "templating", "darya", "framework", "library"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Chris Andrew",
+			"email": "chris@hexus.io",
+			"homepage": "http://hexus.io",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Darya\\Smarty": "src/"
+		}
+	}
+}
