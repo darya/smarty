@@ -20,5 +20,6 @@
 		"psr-4": {
 			"Darya\\Smarty\\": "src/"
 		}
-	}
+	},
+	"minimum-stability": "stable"
 }
